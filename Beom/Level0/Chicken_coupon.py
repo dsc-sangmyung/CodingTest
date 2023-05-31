@@ -3,9 +3,8 @@ def solution(chicken):
     answer = 0 
     while coupon >= 10:
         service = coupon//10
-        answer += service
-        coupon = coupon % 10 + service     
-
+        coupon = coupon % 10 + service
+        answer += service    
     return answer
 
 
