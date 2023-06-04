@@ -1,4 +1,4 @@
-def GCD(a,b): #greatest common denominator(최대공약수)
+def GCD(a,b):
     while b != 0:
         a, b = b, a % b
     return a
