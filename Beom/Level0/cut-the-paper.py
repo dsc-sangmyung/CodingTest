@@ -1,6 +1,5 @@
 def solution(M, N):
-    answer = (M * N) -1
-    return answer
+    return (M * N) -1
 
 print(solution(2,2))
 print(solution(2,5))
