@@ -1,0 +1,11 @@
+def solution(t, p):
+    answer = 0
+    length  = len(t) - len(p) + 1
+    for i in range(length):
+        str = t[i:i+len(p)]
+        istr = int(str)
+        iP = int(p)
+        print(istr, iP)
+        if(istr <= iP):
+            answer += 1
+    return answer
