@@ -5,7 +5,6 @@ function solution(survey, choices) {
     const [leftType, rightType] = survey[i].split("");
     const result = Math.abs(choices[i] - 4);
     if (choices[i] < 4) {
-      // 비동의 -> 왼쪽 요소
       types[leftType] += result;
     } else if (choices[i] > 4) {
       types[rightType] += result;
